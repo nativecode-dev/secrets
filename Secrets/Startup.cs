@@ -43,7 +43,7 @@
             }
 
             app.UseMiddleware<UserPrincipalMapping>();
-            app.UseMvc();
+            app.UseMvcWithDefaultRoute();
             app.UseSwagger();
             app.UseSwaggerUi();
 
