@@ -33,6 +33,17 @@
         public int? MaxUseCounter { get; set; }
 
         /// <summary>
+        /// Gets or sets the name.
+        /// </summary>
+        [Required]
+        [StringLength(128)]
+        public string Name { get; set; }
+
+        [Required]
+        [StringLength(256)]
+        public string NameUnique { get; set; }
+
+        /// <summary>
         /// Gets or sets the password for the secret.
         /// </summary>
         [StringLength(128)]
