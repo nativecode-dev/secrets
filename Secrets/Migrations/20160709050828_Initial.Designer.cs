@@ -8,7 +8,7 @@ using Secrets;
 namespace Secrets.Migrations
 {
     [DbContext(typeof(SecretContext))]
-    [Migration("20160708045337_Initial")]
+    [Migration("20160709050828_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
