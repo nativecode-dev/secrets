@@ -1,9 +1,13 @@
 ﻿namespace Secrets.Models
 {
+    using System;
+
     using Secrets.Entities;
 
     public class SecretModel : IAccessor
     {
+        public Guid Key { get; set; }
+
         public string ApiKey { get; set; }
 
         public string Login { get; set; }
